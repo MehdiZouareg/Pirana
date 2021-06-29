@@ -1,0 +1,10 @@
+version: '3'
+services:
+  gebug-goplant:
+    build:
+      context: ..
+      dockerfile: .gebug/Dockerfile
+    volumes:
+      - ../:/src:ro
+    ports:
+      - 3000:3000

@@ -167,10 +167,6 @@ function checkPlant(plantId){
     });
 }
 
-function triggerSprinkle(){
-
-}
-
 function setButtonState(button, state)
 {
     button.attr()

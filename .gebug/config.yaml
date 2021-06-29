@@ -1,0 +1,11 @@
+name: goplant
+output_binary: /app
+build_command: go build -o /app
+run_command: /app
+runtime_image: golang:1.15.2
+debugger_enabled: false
+debugger_port: 0
+expose_ports:
+- 3000:3000
+networks: []
+environment: []
